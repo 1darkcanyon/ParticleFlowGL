@@ -391,4 +391,5 @@ public class VulkanParticlesRenderer {
     private native void    nativeRender(long handle);
     private native void    nativeOnSurfaceChanged(long handle, int width, int height);
     private native void    nativeResetAttractionPoints(long handle);
-    private native void    nativeInitTesla369Pattern(
+    private native void    nativeInitTesla369Pattern(long handle);
+}
